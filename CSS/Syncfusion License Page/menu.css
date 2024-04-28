@@ -1,0 +1,283 @@
+.menu-bar{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 100%;
+    align-content: center; 
+    /* #666666 */
+    border: #1a1a1a;
+}
+.logo{
+    height: 3rem;
+    /* width: 12rem; */
+    margin: 0 8rem;
+    /* margin-left: -10rem; */
+}
+.menu-bar-right{
+   /* padding-left: -15rem; */
+   /* margin: 0 -10rem; */
+   /* margin-left: -13rem; */
+}
+.ul-lists{
+    color: whitesmoke;
+}
+.li-item{
+    display: inline-block; 
+    margin-right: 2.2rem;
+    /* height: 2rem; */
+    
+}
+.li-item:hover{
+    background-color: #666666;
+    
+}
+
+.products-dropdown{
+    width: 85rem;
+    height: 3rem;
+    margin: 0 15rem;
+    background-color: white;
+    padding-top: 1rem;
+}
+.products-dropdown{
+    
+}
+.products-content
+{
+    margin: 0 2rem;
+    text-decoration: none;
+}
+.li-learning{
+    display: inline-block; 
+    margin-right: 2.2rem;
+    /* height: 2rem; */
+    
+}
+.li-learning:hover{
+    background-color: #666666;
+}
+
+.li-pricing{
+    display: inline-block; 
+    margin-right: 2.2rem;
+    /* height: 2rem; */
+    
+}
+.li-pricing:hover{
+    background-color: #666666;
+}
+
+.li-company{
+    display: inline-block; 
+    margin-right: 2.2rem;
+    /* height: 2rem; */
+    
+}
+.li-company:hover{
+    background-color: #666666;
+}
+.body{
+    font-size: 1em;
+    line-height: 1.42857143;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    color: #666666;
+    font-weight: 500;
+    
+}
+.button-item{
+    display: inline-block; 
+    margin-right: 2rem;
+    /* margin-right: 2.2rem; */
+}
+.demo{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.menu-bar-button
+{
+    margin: 0.3rem 0;
+    margin-right: 2rem;
+}
+.free
+{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #0073dc;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.blue-box{
+    /* height: 40rem; */
+    /* margin-top: -1rem; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-180deg, #0b0f91 0%, #033ea9 100%);
+}
+.pricing{
+    color: #fff;
+    /* font-size: 1.6rem; */
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.call{
+    color: #fff;
+    /* font-size: 1.6rem; */
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.001rem;
+    margin-top: -0.5rem   ;
+}
+.license-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.license-item1{
+    list-style-type: none;
+    background-color: white;
+    color:#0073dc;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    font-weight:normal;
+}
+.license{
+    padding-top: 0.3rem;
+}
+.license-item{
+    background-color: darkblue;
+    color: white;
+    list-style-type: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 15rem;
+    font-weight:normal;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+.best-value{
+    color: #404040;
+    text-align: center;
+}
+
+.plans{
+    display: flex;
+    width: 76rem;
+    height: 30rem;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-content: center;
+    margin: 0 10rem;
+    color: #404040;
+}
+
+.plan-left{
+    width: 22rem;
+    height: 30rem;
+    border: 0.01rem solid black;
+    margin: 0 1rem;
+    text-align: center;
+    
+}
+
+.plan-middle{
+    width: 22rem;
+    height: 30rem;
+    border: 0.01rem solid black;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.plan-left:hover{
+    box-shadow: 0px 0px 2.5px 2.5px gray;
+}
+.plan-middle:hover{
+    box-shadow: 0px 0px 2.5px 2.5px #999966;
+}
+
+.dev-count{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.dollar{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.num{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.month{
+    font-size: 1rem;
+}
+.dep-bold{
+    color:#404040 ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.deployment{
+    margin: 0 2rem;
+}
+
+.buy-now-button{
+    margin: 2rem 0;
+}
+
+.buy-now{
+    width: 15rem;
+    height: 3rem;
+    background-color: #0073dc;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: 0rem;
+}
+.line{
+    margin: 0 2rem;
+}
+
+.tech-items{
+    list-style-type: none;
+    background: url('images\\tickmark.png') no-repeat 0 -3px;
+    background-size: 1.5rem 1.5rem;
+    /* background-position:left ; */
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    /* padding:0.5rem 0; */
+}
+
+.ul-techs{
+    text-align: left;
+    margin-left: 3rem;
+    padding-left: 2rem;
+}

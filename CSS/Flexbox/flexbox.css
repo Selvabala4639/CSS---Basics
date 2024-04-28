@@ -1,0 +1,39 @@
+.numbers{
+    display: flex;
+    width: 18em;
+    background-color: brown;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.digits{
+    background-color: burlywood;
+    margin: 1rem;
+    /* padding: 0 2.2rem; */
+    width: 6rem;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.vegetables{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    width: 30rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around  ;
+    margin-top: 4rem;
+}
+.title{
+    width: 30rem;
+    line-height: 2rem;
+    background-color: gray;
+}
+.items{
+    width: 8rem;
+    height: 6rem;
+    margin: 0.5rem 0.5rem;
+}
