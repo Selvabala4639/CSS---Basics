@@ -1,0 +1,91 @@
+.cards{
+    width: 100rem;
+    height: 90rem;
+    background-color: rgb(208, 236, 247);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.card-list
+{
+    width: 100rem;
+    height: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.contact-card{
+    padding-left: 2rem;
+    width: 42rem;
+    height: 18rem;
+    background-color:white;
+    margin: 0 4rem;
+    margin-left: 6rem;
+    border-radius: 2rem;
+    font-family: sans-serif;
+}
+
+.form-card{
+    width: 40rem;
+    height: 65rem;
+    background-color:white;
+    margin: 0 3rem;
+    border-radius: 2rem;
+    font-family: sans-serif;
+}
+.mail-img{
+    margin-top: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.card-heading{
+     margin-top: -4.5rem;
+     margin-left: 6rem;
+     font-size: 2rem;
+}
+.card-details{
+    
+     margin-left: 6rem;
+     font-size: 1.2rem;
+     line-height: 2.2rem;
+}
+.card-highlight{
+    /* padding-left: 6rem; */
+    margin-bottom: -18rem;
+     font-size: 1.2rem;
+     line-height: 2.2rem;
+     color: #e53b00;
+}
+.chat-card{
+    padding-left: 2rem;
+    width: 42rem;
+    height: 18rem;
+    background-color:white;
+    margin: 0 4rem;
+    margin-left: -44rem;
+    border-radius: 2rem;
+    font-family: sans-serif;
+    margin-top: -18rem;
+
+}
+.support-card{
+    padding-left: 2rem;
+    width: 42rem;
+    height: 18rem;
+    background-color:white;
+    margin-top: -42rem;
+    margin-left: -48rem;
+    border-radius: 2rem;
+    font-family: sans-serif;
+}
+.form-heading{
+    font-size: 2rem;
+    text-align: center;
+}

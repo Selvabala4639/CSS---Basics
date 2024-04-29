@@ -1,0 +1,45 @@
+.form{
+    padding: 0 7rem;
+    color: #666666;
+    font-size: 1.2rem;
+    
+}
+
+.form-label{
+    margin-bottom: 5rem;
+}
+.input-box{
+    font-size: 1.2rem;
+    width: 24rem;
+    height: 2.5rem;
+    
+}
+.input-box-gap{
+    padding-bottom: 1rem;
+}
+
+.textarea{
+    font-size: 1.2rem;
+}
+.submitbtn{
+    width: 24rem;
+    height: 2.5rem;
+    background-color: #e53b00;
+    color: white;
+    border: 0rem;
+    font-size: 1.5rem;
+}
+
+.privacy{
+    color: rgb(66, 164, 202);
+}
+.terms{
+    color: rgb(66, 164, 202);
+}
+.privacy:hover{
+    color: blue;
+}
+
+.terms:hover{
+    color: blue;
+}

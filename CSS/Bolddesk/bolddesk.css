@@ -1,0 +1,72 @@
+.body{
+    font-size: 1rem;
+    line-height: 1.42857143;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    
+}
+.menu-bar{
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 100%;
+    align-content: center; 
+    border: #1a1a1a;
+    color: #0a122f;
+    font-weight: bold;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    
+}
+.logo{
+    padding-top: 0.8rem;
+    height: 3rem;
+}
+
+.ul-items{
+    color: whitesmoke;
+    
+}
+.li-items{
+    display: inline-block; 
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+}
+
+.button-item{
+    display: inline-block; 
+    margin: 0 0.5rem;
+    padding-top: 0.5rem;
+}
+.menu-bar-button
+{
+    margin-left: -5rem;
+}
+.demo{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: white;
+    color: #e53b00;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    border-style: solid;
+    border-color: #e53b00;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.free
+{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #e53b00;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0rem;
+}
+

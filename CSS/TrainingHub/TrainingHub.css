@@ -1,6 +1,7 @@
 .whole-page{
     border: 1rem solid white;
     border-radius: 1rem;   
+    justify-content: center;
 }
 .page{
     background: linear-gradient(90deg, #e4e9f4 0%, #5B7596 50%);
@@ -16,6 +17,7 @@
     height: 23rem;
     flex-wrap: wrap;
     margin: 0 25%; 
+    justify-content: center;
 }
 .container-left{
     margin: 1.35rem 0;
@@ -157,6 +159,9 @@
     align-content: center;
     margin-left: 0.25rem;
     color: whitesmoke;
+}
+.ms-container:hover{
+    background-color: #5B7596;
 }
 .ms-image{
     width: 1.8rem;

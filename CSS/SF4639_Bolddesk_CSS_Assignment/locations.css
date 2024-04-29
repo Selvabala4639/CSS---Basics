@@ -1,0 +1,60 @@
+.locations-bg{
+    width: 100%;
+    height: 60rem;
+    text-align: center;
+    
+}
+.office-head{
+    color: 0a122f;
+    padding: 3rem 0;
+    font-size: 4rem;
+
+}
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 35rem;
+    padding: 2rem;
+}
+
+.usa{
+    width: 40rem;
+    height: 15rem;
+    background-color: white;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    border: 0.001rem solid rgb(154, 153, 153);
+}
+
+.eymard-image{
+    width: 13rem;
+    height: 13rem;
+    margin-left: -25rem;
+    margin-top: 0.5rem;
+}
+
+.office-image{
+    width: 14rem;
+    height: 14rem;
+    margin-left: -25rem;
+    margin-top: 0.5rem;
+}
+
+.office-name{
+    margin-top: -13rem;
+     margin-left: 12rem;
+     font-size: 2rem;
+     justify-content: left;
+}
+
+.office-address{
+    /* margin-top: -13rem;
+     margin-left: 12rem; */
+     text-align: left;
+     
+     font-size: 0.8rem;
+     padding-left: 16rem;
+}

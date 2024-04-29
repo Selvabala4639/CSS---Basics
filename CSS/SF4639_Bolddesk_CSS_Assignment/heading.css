@@ -1,0 +1,15 @@
+.page-heading{
+    height: 20rem;
+    color: #0a122f;
+    text-align: center;
+}
+.head1{
+    padding-top: 5rem;
+    font-size: 3.5rem;
+}
+
+.head3{
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    padding: 0 27rem;
+}
